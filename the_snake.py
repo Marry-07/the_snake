@@ -83,7 +83,7 @@ class Apple(GameObject):
 
 class Snake(GameObject):
     """описание логики змеи"""
-    
+
     def __init__(self):
         """задаем цвет и начальную позицию"""
         super().__init__()
