@@ -62,6 +62,7 @@ class GameObject:
 
 class Apple(GameObject):
     """описание поведения яблока"""
+
     def __init__(self, filled_positions=()):
         """задаем цвет и позицию с учетом клеток, занятых змейкой"""
         super().__init__()
@@ -82,6 +83,7 @@ class Apple(GameObject):
 
 class Snake(GameObject):
     """описание логики змеи"""
+    
     def __init__(self):
         """задаем цвет и начальную позицию"""
         super().__init__()
